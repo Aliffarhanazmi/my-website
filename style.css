@@ -1,0 +1,106 @@
+/* GENERAL */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #111;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00c2ff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #00c2ff, #0077ff);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  background: white;
+  color: #0077ff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* PRODUCTS */
+.products {
+  padding: 50px;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #0077ff;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+  margin-top: 50px;
+}
